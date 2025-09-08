@@ -25,6 +25,17 @@ print('連続して並んでいる複数の文字列リテラルは'
 prefix = 'Py'
 print(prefix + 'thon') #変数同士や変数とリテラルを連結させる場合は+を使用
 
+# 文字の取得
+word = "Python"
+print(word[0]) #0番目
+print(word[5]) #5番目
+print(word[-2]) #後ろから2番目
+print(word[-4]) #後ろから4番目
+print(word[0:2]) #0番目(含む)~2番目(含まない)
+print(word[:2]) #0番目(含む)~2番目(含まない)
+print(word[4:]) #4番目(含む)~最後
+print(word[-2:]) #後ろから2番目(含む)~最後
+print(word[:2] + word[2:])
 
-
-
+s = 'aaaaaaaaaaaaaaaaaaa'
+print(len(s)) #文字列の長さ
