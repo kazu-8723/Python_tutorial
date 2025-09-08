@@ -1,3 +1,4 @@
+'''
 print(2 + 2)
 print(18 / 5)
 print(18 // 5) #小数点以下切り捨て
@@ -9,8 +10,8 @@ print('dosen\'t') # \を使用してシングルフォート(')をエスケー�
 s = 'First line. \nSecond line.' # \n で改行
 print(s)
 
-print('C:\some\name') # \n で改行
-print(r'C:\some\name') # r(raw strings)を引用符の前につけることで \ の後の文字が特殊文字として解釈されなくなる
+print('C:\\some\name') # \n で改行
+print(r'C:\\some\\name') # r(raw strings)を引用符の前につけることで \ の後の文字が特殊文字として解釈されなくなる
 
 print("""\
 aiueo           kakikukeko
@@ -39,3 +40,19 @@ print(word[:2] + word[2:])
 
 s = 'aaaaaaaaaaaaaaaaaaa'
 print(len(s)) #文字列の長さ
+
+squares = [1, 4, 9, 16, 25] #リスト型
+print(squares)
+print(squares[0])
+print(squares[-1])
+print(squares[:3])
+squares + [36, 49] # 追加
+print(squares)
+'''
+cubes = [1, 8, 27, 65, 125]
+cubes[3] = 64
+print(cubes)
+cubes.append(216)
+cubes.append(7 ** 3)
+print(cubes)
+
