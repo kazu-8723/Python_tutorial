@@ -4,3 +4,7 @@ print(a)
 print(a['リンゴ'])
 print(a['ミカン'])
 print(a['モモ'])
+
+#辞書の要素の変更
+a['リンゴ'] = 100
+print(a)
