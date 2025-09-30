@@ -1,0 +1,1 @@
+import kino_17_greeting #kino_17_greetingをインポートすることで、kino_17_greetingと同様の処理が実行される
