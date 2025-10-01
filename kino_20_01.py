@@ -1,8 +1,8 @@
-"""
+
 f = open("test.txt", "w") #ファイルの作成 ファイル名"test.txt writeモード
 f.write("test") #テキストの書き込み
 f.close() #ファイルの作成完了
-"""
+
 """
 with open("test.txt", "w") as f: #close無し
     f.write("overwrite") #上書きされる
@@ -59,8 +59,9 @@ with open("test3.txt", "w+") as f: #"w+"ファイルの読み込み+書き込み
     f.seek(0)
     print(f.read())
 """
-
+"""
 with open("test3.txt", "a+") as f: #"a+"ファイルの末尾にテキスト追加+読み込み
     f.write("peach\n")
     f.seek(0)
     print(f.read())
+"""

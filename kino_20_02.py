@@ -1,9 +1,9 @@
 import csv
-"""
+
 with open("test.csv", "w") as f:
     writer = csv.writer(f)
     writer.writerow(["Yamada", 180, 70])
-"""
+
 """
 with open("test.csv", "a") as f:
     writer = csv.writer(f)
